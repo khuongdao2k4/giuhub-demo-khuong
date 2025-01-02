@@ -89,4 +89,4 @@ print(f"Số sinh viên có điểm từ B trở lên: {so_sinh_vien_b_or_up}")
 # 4) Tạo bảng điểm mới sau khi loại bỏ điểm của sinh viên đầu tiên và cuối cùng
 diem_thi_moi = diem_thi[1:-1]  # Loại bỏ sinh viên đầu tiên và cuối cùng
 print(f"Bảng điểm mới sau khi loại bỏ sinh viên đầu tiên và cuối cùng: {diem_thi_moi}")
-
+#tôi là khương
