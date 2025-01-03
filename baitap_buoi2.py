@@ -7,11 +7,15 @@ if str in nguyen:
 else:
     print("Đây là phụ âm!")
 
+
+
 #Bai7: Tính chỉ số BMI
 hight = input("Nhập chiều cao: ")
 weight = input("Nhập cân nặng: ")
 bmi = weight / (hight*hight)
 print(f"Chỉ số BMI{bmi}")
+
+
 
 #Bai8: Xác định mùa trong năm
 namsinh = input("Nhập tháng sinh: ")
@@ -29,6 +33,8 @@ elif namsinh in dong:
     print("Bạn sinh vào mùa Đông")
 else:
     print("Vui lòng nhập tháng sinh từ 1-12")
+
+
 
 #Bai9: Hiển thị bảng cửu chương
 giatri = input("Nhập bảng cửu chương bạn muốn in: ")
@@ -58,6 +64,8 @@ for i in diem:
         diem_chu.append("C")
 print(diem_chu)
 
+
+
 #Bai11: Kiểm tra số nguyên tố
 def is_prime(n):
     # Kiểm tra nếu số nhỏ hơn 2
@@ -82,6 +90,8 @@ try:
         print(f"{number} không phải là số nguyên tố.")
 except ValueError:
     print("Vui lòng nhập một số nguyên hợp lệ!")
+
+
 
 # Bài 12: Hiển thị số NT từ 2 Tới N
 def is_prime(num):
@@ -112,6 +122,8 @@ try:
 except ValueError:
     print("Vui lòng nhập một số nguyên hợp lệ!")
 
+
+
 #Bài 13: Chuyển N sang nhị phân:
 def decimal_to_binary(n):
     # Hàm chuyển đổi số thập phân sang nhị phân
@@ -131,6 +143,8 @@ try:
         print(f"Số {N} trong hệ nhị phân là: {binary_representation}")
 except ValueError:
     print("Vui lòng nhập một số nguyên hợp lệ!")
+
+
 
 #Bài 14:Tìm max - min - mean
 # Khởi tạo danh sách chiều cao (dữ liệu mẫu)
